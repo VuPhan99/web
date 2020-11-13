@@ -1,1 +1,397 @@
-xin chao
+<!doctype html>
+<html>
+	<head>
+		<title>Garage Car Xuan Vu</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+		<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+		<link href="css/style.css" rel="stylesheet" type="text/css"/>
+		<script src="js/jquery-3.3.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script defer="" src="js/jquery.flexslider.js"></script>
+	</head>
+	<body>
+		<div class="header_nav container" id="home" style="padding: 0px;">
+			<nav class="navbar navbar-default chn-gd">	
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+				 	<a href="index.html"><img src="images/logo.jpg" width="100%"></a> 
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right" style="padding-top: 4%">
+						<li>
+							<a href="index.html">
+							<span class="glyphicon glyphicon-home " aria-hidden="true"></span>
+							Home
+							</a>
+						</li>
+						<!---->
+						<li>
+							<a href="services.html">
+							<span class="glyphicon glyphicon-cog " aria-hidden="true"></span>
+							Services
+							</a>
+							<ul>
+								<li>
+									<a href="services_detail.html">Insurance Repairs</a>
+								</li>
+								<li>
+									<a href="services_detail2.html">Rescue Service 24/24</a>
+								</li>
+								<li>
+									<a href="services.html">Car Diagnostic Services</a>
+								</li>
+								<li>
+									<a href="services.html">Engine Repair - Roar</a>
+								</li>
+							</ul>
+						</li>
+						<!---->
+						<li>
+							<a href="about.html">
+							<span class="glyphicon glyphicon-user " aria-hidden="true"></span>
+							About
+							</a>
+						</li>
+						<!---->
+						<li>
+							<a href="news.html">
+							<span class="glyphicon glyphicon-thumbs-up " aria-hidden="true"></span>
+							News
+							</a>
+						</li>
+						<!---->
+						<li>
+							<a href="contact.html">
+							<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+							Contact
+							</a>
+						</li>
+						<li class="nav navbar-nav search-box">	
+							<form class="search-form">
+								<div class="form-group">
+								  	<input type="text" class="form-control" placeholder="Search"> 
+									<a class=" search-btn"> <i class="glyphicon glyphicon-search"></i></a>
+								</div>
+							</form>	
+						</li>
+						<li>
+							<a href="#signup" aria-hidden="true" data-toggle="modal" data-target=".bs-modal-sm">Sign In</a>
+						</li>
+						<div class="clearfix">
+						<!--script hover liệt kê các phần tử khi chúng được di chuột qua.-->
+						<script type="text/javascript">
+							$(document).ready(function() {
+								$(".toggleMenu").css("display", "none");
+								$(".nav li").hover(function() {
+									$(this).addClass('hover');
+									}, function() {
+									$(this).removeClass('hover');
+								});
+							});
+						</script>
+						<!--script-->
+					</ul>
+				</div><!-- /.navbar-collapse -->
+				<div class="clearfix"></div>
+					<!-- /.container-fluid -->
+			</nav>
+		</div>
+		<!-- banner -->
+		<div class="slide">
+		  	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			    <!-- Indicators -->
+			    <ol class="carousel-indicators">
+			      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			      <li data-target="#myCarousel" data-slide-to="1"></li>
+			      <li data-target="#myCarousel" data-slide-to="2"></li>
+			    </ol>
+			    <!-- Wrapper for slides -->
+			    <div class="carousel-inner">
+			      	<div class="item active" style="width: 100%">
+			        	<img src="images/4.jpg">
+				        <div class="carousel-caption" style="padding: 5%">
+				          	<h2>Garage Car Xuan Vu</h2><br>
+				          	<h4>With us you can be assured and trust</h4>
+				        </div>
+			      	</div>
+			      	<div class="item">
+			        	<img src="images/2.jpg" style="width: 100%">
+			        	<div class="carousel-caption" style="padding: 5%">
+				          	<h2>Garage Car Xuan Vu</h2><br>
+				          	<h4>With us you can be assured and trust</h4>
+				        </div>
+			    	</div>
+			      	<div class="item">
+			        	<img src="images/3.jpg" style="width: 100%">
+			        	<div class="carousel-caption" style="padding: 5%">
+				          	<h2>Garage Car Xuan Vu</h2><br>
+				          	<h4>With us you can be assured and trust</h4>
+				        </div>
+			      	</div>
+			    </div>
+			    <!-- Left and right controls -->
+			    <a class="left carousel-control" href="#myCarousel" data-slide="prev" style="width: 5%; ">
+			      	<span class="glyphicon glyphicon-chevron-left"></span>
+			      	<span class="sr-only">Previous</span>
+			    </a>
+			    <a class="right carousel-control" href="#myCarousel" data-slide="next" style="width: 5%">
+			      	<span class="glyphicon glyphicon-chevron-right"></span>
+			      	<span class="sr-only">Next</span>
+			    </a>
+		  	</div>
+		</div>
+		<!-- /banner -->
+		<!-- high -->
+		<div class="high">
+			<div class="container">
+				<div class="col-md-6 high-left hoverimage">
+					<img src="images/img7.jpg" class="img-responsive" alt="">
+				</div>
+				<div class="col-md-6 high-right">
+					<h3>HIGH QUALITY</h3>
+					<h5>AND PROFESSIONAL SERVICES</h3>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<!-- high -->
+		<!-- over -->			
+		<div class="over">
+			<div class="container">
+				<div class="col-md-8 over-left">
+					<h3>Experience Of Repair</h3>
+					<P>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpatt wisi enim ad minim veniam, quis nostrud exerci tation ullamco rper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+				</div>
+				<div class="col-md-4 over-right">
+					<div class="testimonials">
+						<h3>Testimonials</h3>
+						<!-- FlexSlider -->
+						<section class="slider">
+							<div class="flexslider">
+								<ul class="slides">
+									<li>	
+										<div class="tes">
+											<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpatt wisi enim ad minim veniam, quis </p>
+											<h5>Healy</h5>
+										</div>
+									</li>
+									<li>	
+										<div class="tes">
+											<p>consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpatt wisi enim ad minim veniam, quis nostrud exerci tation ullamco</p>
+											<h5>Nickkie</h5>
+										</div>
+									</li>
+									<li>	
+										<div class="tes">
+											<p> sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpatt wisi enim ad minim veniam, quis nostrud exerci tation ullamco rper suscipit lobortis nisl ut</p>
+											<h5>John</h5>
+										</div>
+									</li>
+									<li>	
+										<div class="tes">
+											<p>consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpatt wisi enim ad minim veniam, quis nostrud exerci tation ullamc</p>
+											<h5>Rusev</h5>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</section>
+						<!-- FlexSlider -->
+					  	<script type="text/javascript">
+							$(function(){
+							  SyntaxHighlighter.all();
+							});
+							$(window).load(function(){
+							  $('.flexslider').flexslider({
+								animation: "slide",
+								start: function(slider){
+								  $('body').removeClass('loading');
+								}
+							  });
+							});
+						</script>
+						<!-- FlexSlider -->
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+		<!-- over -->
+		<div class="team">
+			<div class="container">
+				<div class="col-md-3 team-left hoverimage">
+					<img src="images/id4.jpg" class="img-responsive" alt="">
+				</div>
+				<div class="col-md-3 team-left hoverimage">
+					<img src="images/id1.jpg" height="150%" class="img-responsive" alt="">
+				</div>
+				<div class="col-md-3 team-left hoverimage">
+					<img src="images/id2.jpg" class="img-responsive" alt="">
+				</div>
+				<div class="col-md-3 team-left hoverimage">
+					<img src="images/id3.jpg" class="img-responsive" alt="">
+				</div>
+					<div class="clearfix"></div>
+			</div>
+		</div>
+		<!-- expert -->
+		<div class="expert">
+			<div class="container">
+				<div class="col-md-4 expert-left">
+					<h3>Expert Service By Best Technicians</h3>
+					<P>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpatt wisi enim ad minim veniam, quis nostrud exerci tation ullamco rper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</P>
+				</div>
+				<div class="col-md-4 expert-left hoverimage">
+					<img src="images/img6.jpg" class="img-responsive" alt="">
+				</div>
+				<div class="col-md-4 expert-left">
+					<h3>Highest Standard Of Car Repair</h3>
+					<P>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpatt wisi enim ad minim veniam, quis nostrud exerci tation ullamco rper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</P>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<!-- expert -->
+		<!-- footer -->
+		<div class="footer">
+			<div class="container">
+				<div class="col-md-3 footer-left">
+					<h3>Telephone</h3>
+					<p>01634970494</p>
+				</div>
+				<div class="col-md-3 footer-left">
+					<h3>E-Mail Us</h3>
+					<p>Email : <a href=",ailto:pxvu.17IT2@Sict.udn.vn">pxvu.17IT2@Sict.udn.vn</a></p>
+				</div>
+				<div class="col-md-3 footer-left">
+					<h3>Follow Us</h3>
+					<ul>
+						<li><a href="https://www.facebook.com/profile.php?id=100009055831553"><i class="facebok"> </i></a></li>
+						<li><a href="#"><i class="twiter"> </i></a></li>
+						<li><a href="#"><i class="goog"> </i></a></li>
+						<li><a href="#"><i class="inst"> </i></a></li>
+						<div class="clearfix"></div>	
+					</ul>
+				</div>
+				<div class="col-md-3 footer-left">
+					<h3>Address</h3>
+					<p>Hoa Qui - Ngu Hanh Son - Da Nang</p>
+				</div>
+				<div class="clearfix"></div>
+				<div class="foot-bottom">
+					<center>
+						<p>© 2018 Garage_car. All rights reserved | Design by <a href="https://www.facebook.com/profile.php?id=100009055831553">Xuan Vu</a></p>
+					</center>
+				</div>
+			</div>
+		</div>
+		<!-- footer -->
+
+		<!-- Modal -->
+		<div class="modal fade bs-modal-sm" id="myModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+		  	<div class="modal-dialog modal-sm">
+		    	<div class="modal-content">
+		        	<br>
+			        <div class="bs-example bs-example-tabs">
+			            <ul id="myTab" class="nav nav-tabs">
+			              <li class="active"><a href="#signin" data-toggle="tab">Sign In</a></li>
+			              <li class=""><a href="#signup" data-toggle="tab">Sign Up</a></li> 
+			            </ul>
+			        </div>
+		      		<div class="modal-body">
+		       		 	<div id="myTabContent" class="tab-content">
+			        		<div class="tab-pane fade active in" id="signin">
+			            		<form class="form-horizontal">
+						            <fieldset>
+						            <!-- Sign In Form -->
+						            <!-- Text input-->
+							            <div class="control-group">
+							              	<label class="control-label" for="userid">User</label>
+							              	<div class="controls">
+							                	<input required="" id="userid" name="userid" type="text" class="form-control" placeholder="Joyce" class="input-medium" required="">
+						              		</div>
+							            </div>
+							            <!-- Password input-->
+							            <div class="control-group">
+							              	<label class="control-label" for="passwordinput">Password</label>
+							              	<div class="controls">
+							                	<input required="" id="passwordinput" name="passwordinput" class="form-control" type="password" placeholder="********" class="input-medium">
+							              	</div>
+							            </div>
+							            <!-- Multiple Checkboxes (inline) -->
+							            <div class="control-group">
+							             	<label class="control-label" for="rememberme"></label>
+							              	<div class="controls">
+							                	<label class="checkbox inline" for="rememberme-0" style="margin-left: 10%">
+							                  		<input type="checkbox" name="rememberme" id="rememberme-0" value="Remember me">Remember me
+							                	</label>
+							              	</div>
+							            </div>
+							            <!-- Button -->
+							            <div class="control-group">
+							              	<label class="control-label" for="signin"></label>
+							              	<div class="controls">
+							                	<center><button id="confirmsignup" name="confirmsignup" class="btn btn-success">Sign In</button></center>
+							              	</div>
+							            </div>
+						            </fieldset>
+					            </form>
+					        </div>
+					        <div class="tab-pane fade" id="signup">
+					            <form class="form-horizontal">
+						            <fieldset>
+						            <!-- Sign Up Form -->
+						            <!-- Text input-->
+							            <div class="control-group">
+							              	<label class="control-label" for="Email">Email</label>
+							              	<div class="controls">
+							                	<input id="Email" name="Email" class="form-control" type="text" placeholder="example@gmail.com" class="input-large" required="">
+							              	</div>
+							            </div>
+							            <!-- Text input-->
+							            <div class="control-group">
+							              	<label class="control-label" for="userid">User</label>
+							              	<div class="controls">
+							                	<input id="userid" name="userid" class="form-control" type="text" placeholder="Joyce" class="input-large" required="">
+							              	</div>
+							            </div>
+							            <!-- Password input-->
+							            <div class="control-group">
+							              	<label class="control-label" for="password">Password</label>
+							              	<div class="controls">
+							                	<input id="password" name="password" class="form-control" type="password" placeholder="********" class="input-large" required="">
+							              	</div>
+							            </div>  
+							            <!-- Text input-->
+							            <div class="control-group">
+							              	<label class="control-label" for="reenterpassword">Re-Enter Password:</label>
+							              	<div class="controls">
+							                	<input id="reenterpassword" class="form-control" name="reenterpassword" type="password" placeholder="********" class="input-large" required="">
+							              	</div>
+							            </div>
+							            <div class="control-group">
+							              	<label class="control-label" for="signup"></label>
+							              	<div class="controls">
+							                	<center><button id="confirmsignup" name="confirmsignup" class="btn btn-success">Sign Up</button></center>
+							              	</div>
+							            </div>
+						            </fieldset>
+					            </form>
+					      	</div>
+					    </div>
+		    		</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
